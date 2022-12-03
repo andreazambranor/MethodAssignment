@@ -9,13 +9,11 @@ namespace MethodAssignmentSubmisison
 {
     public class Class1
     {
-        public int Value { get; set; }
-        public int Valueb { get; set; } 
 
-
-        public int MethodA(Class1 one)
+        public int MethodA(int num1, int num2 = 0)
         {
-            return Value + Valueb;
+            int total = num1 + num2;
+            return total;
         }
   
     }
